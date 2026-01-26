@@ -2,6 +2,7 @@ package com.boot.controllers;
 
 import com.boot.entity.User;
 import com.boot.services.UserServices;
+import jakarta.validation.Valid;
 import org.apache.juli.logging.Log;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ public class UserController {
 //    }
 
     @PostMapping("/createuser")
-    public String createUser(@RequestBody User user) {
+    public String createUser(@Valid @RequestBody User user) {
         try{
             userServices.saveUser(user);
             return "User created successfully";
