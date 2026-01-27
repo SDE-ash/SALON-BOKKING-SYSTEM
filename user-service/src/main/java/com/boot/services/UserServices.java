@@ -1,6 +1,7 @@
 package com.boot.services;
 
 import com.boot.entity.User;
+import com.boot.exceptions.ResourceNotFoundException;
 import com.boot.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,7 +41,7 @@ public class UserServices {
 //                .orElseThrow(()-> new RuntimeException("User not found with email: " + email));
 
         return userRepo.findByEmailIgnoreCase(email)
-                .orElseThrow(()-> new RuntimeException("user was not found with email: " + email));
+                .orElseThrow(()-> new ResourceNotFoundException("user was not found with email: " + email));
     }
 
     public User getUserByPhoneNo(String phoneNo){
@@ -49,7 +50,7 @@ public class UserServices {
         return userRepo.findAll().stream()
                 .filter(user -> user.getPhoneNo().equalsIgnoreCase(phoneNo))
                 .findFirst()
-                .orElseThrow(() -> new RuntimeException("user was not found with phone number: " + phoneNo));
+                .orElseThrow(() -> new ResourceNotFoundException("user was not found with phone number: " + phoneNo));
     }
 
 
@@ -64,7 +65,7 @@ public class UserServices {
             userRepo.save(existingUser);
             return  "User updated successfully";
         }else{
-            throw new RuntimeException("User not found with email: " + email);
+            throw new ResourceNotFoundException("user not found with email: " + email);
         }
 
     }
