@@ -71,4 +71,13 @@ public class UserServices {
     }
 
 
+    public String deleteUser(String email) {
+        Optional<User> existingUserOpt = userRepo.findByEmailIgnoreCase(email);
+        if(existingUserOpt.isPresent()){
+            userRepo.delete(existingUserOpt.get());
+            return "User deleted successfully";
+        }else{
+            throw new ResourceNotFoundException("user not found with email: " + email);
+        }
+    }
 }

@@ -54,4 +54,9 @@ public class UserController {
     public String updateUser(@RequestParam String email, @RequestBody User updtUser){
         return userServices.updateUser(email, updtUser);
     }
+
+    @DeleteMapping("/deleteuser")
+    public String deleteUser(@RequestParam String email){
+        return userServices.deleteUser(email);
+    }
 }
