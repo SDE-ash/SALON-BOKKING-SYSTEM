@@ -1,3 +1,5 @@
 # user-service
 
 The `user-service` is a lightweight backend microservice implemented in Java with Spring Boot and built using Maven. It exposes RESTful endpoints for user management (CRUD), uses Spring Data JPA for persistence, includes validation and centralized error handling, and is covered by unit and integration tests. For local development run `mvn spring-boot:run`, configure environment-specific settings in `src/main/resources/application.yml` (or `application.properties`), and build a production artifact with `mvn clean package`. Project structure highlights: `src/main/java` for controllers, services, and repositories; `src/main/resources` for configuration; `src/test/java` for tests.
+
+The 'CI/CD' pipeline is defined in `.github/workflows/ci-cd-pipeline.yml`, which automates building, testing, and deploying the application on code changes.
