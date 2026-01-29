@@ -14,4 +14,8 @@ Day 3:
 1. Review and enhance the existing unit tests in `src/test/java` to improve code coverage.
 2. Implement integration tests to verify the interaction between different components of the application.
 3. Set up a local database (e.g., H2 or PostgreSQL) for testing purposes.
-   4. Document the testing strategy and how to run tests in the `ReadMe.md` 
+4. Document the testing strategy and how to run tests in the `ReadMe.md` 
+
+
+Day 4:
+1. Added User DTOs for data transfer between layers.
