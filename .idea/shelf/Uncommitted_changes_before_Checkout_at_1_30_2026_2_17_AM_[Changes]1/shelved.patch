@@ -1,0 +1,15 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.vscode\n.idea\n.idea/**/*
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision f8d93f2e1a91d862b7beba1e6d820219df098fb2)
++++ b/.gitignore	(date 1769719639017)
+@@ -1,3 +1,2 @@
+-.vscode
+ .idea
+ .idea/**/*
+\ No newline at end of file
