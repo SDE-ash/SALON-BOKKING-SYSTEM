@@ -9,3 +9,9 @@ Test Jenkins integration with the following steps:
 2. Create a new Jenkins job and configure it to pull the code from the GitHub repository
 3. Set up the build steps to run Maven commands such as `mvn clean install` to build and test the application.
 4. Configure post-build actions to deploy the application if the build is successful.
+
+Day 3:
+1. Review and enhance the existing unit tests in `src/test/java` to improve code coverage.
+2. Implement integration tests to verify the interaction between different components of the application.
+3. Set up a local database (e.g., H2 or PostgreSQL) for testing purposes.
+   4. Document the testing strategy and how to run tests in the `ReadMe.md` 
