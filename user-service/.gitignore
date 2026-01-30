@@ -13,6 +13,15 @@ target/
 .springBeans
 .sts4-cache
 
+
+.idea/compiler.xml
+.idea/misc.xml
+.idea/**/*.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/dictionaries
+.idea/jsLibraryMappings.xml
+
 ### IntelliJ IDEA ###
 .idea
 *.iws

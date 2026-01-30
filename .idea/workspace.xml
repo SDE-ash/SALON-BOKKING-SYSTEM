@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cfbffa-5e00-47b2-a395-324ff66a3bbe" name="Changes" comment="" />
+    <list default="true" id="64cfbffa-5e00-47b2-a395-324ff66a3bbe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/salon-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/src/main/java/com/barber/salon/service/SalonServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/src/main/java/com/barber/salon/service/entity/Salon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salon-service/src/test/java/com/barber/salon/service/SalonServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +30,7 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/HP/OneDrive/Desktop/Salon Booking System" value="38hyUuhtbdsrjLp3tIqrKwL9CUc" />
+      <entry key="_C:/Users/HP/OneDrive/Desktop/Salon Booking System/user-service" value="38zVIEj7f6FE85G4YaAZ2MsbzbF" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,6 +60,13 @@
     &quot;accountId&quot;: &quot;fb157213-b233-4799-ab89-b57629d07d74&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -58,6 +83,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/Desktop/Salon Booking System/salon-service",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
@@ -133,7 +162,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="user-br" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>

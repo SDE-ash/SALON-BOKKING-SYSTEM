@@ -4,15 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 
 .idea/compiler.xml
 .idea/misc.xml
@@ -21,6 +12,16 @@ target/
 .idea/workspace.xml
 .idea/dictionaries
 .idea/jsLibraryMappings.xml
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
