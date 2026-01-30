@@ -3,10 +3,7 @@ package com.barber.salon.service.controller;
 import com.barber.salon.service.entity.Salon;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
 
@@ -28,6 +25,13 @@ public class SalonCntrl {
                 .openingTime(LocalDateTime.now())
                 .openingTime(LocalDateTime.now())
                 .build(), HttpStatus.OK);
+    }
+
+
+    @PostMapping("/add-salon")
+    public ResponseEntity<String> saveSalon(@RequestBody Salon salon) {
+        // Implementation goes here
+        return new ResponseEntity<>("Salon saved successfully", HttpStatus.CREATED);
     }
 
 
